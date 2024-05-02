@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./index.css">
+
+  <title>News homepage</title>
+</head>
+<body>
+  <div id="bg" class="bg"></div>
+
+  <nav class="nav">
+    <div class="menu-logo">
+      <img src="./assets/images/logo.svg" alt="W.">
+    </div>
+
+    <div class="menu-btn" onclick="openNav()">
+      <img src="./assets/images/icon-menu.svg" alt="Open">
+    </div>
+    
+    <div id="top-nav" class="top-nav">
+      <ul class="nav__links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">New</a></li>
+        <li><a href="#">Popular</a></li>
+        <li><a href="#">Trending</a></li>
+        <li><a href="#">Categories</a></li>
+      </ul>
+    </div>
+
+    <div id="side-nav" class="side-nav">
+      <a href="#" class="close-btn" onclick="closeNav()">
+        <img src="./assets/images/icon-menu-close.svg" alt="X">
+      </a>
+      <ul class="nav__links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">New</a></li>
+        <li><a href="#">Popular</a></li>
+        <li><a href="#">Trending</a></li>
+        <li><a href="#">Categories</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="main">
+    <div class="hero__container">
+      <img src="./assets/images/image-web-3-mobile.jpg" alt="" aria-hidden="true">
+      <img src="./assets/images/image-web-3-desktop.jpg" alt="" aria-hidden="true">
+    </div>
+
+    <div class="title__container">
+      <h1>The Bright Future of Web 3.0?</h1>
+    </div>
+
+    <div class="text__container">
+      <span>
+        We dive into the next evolution of the web that claims to put the power of the platforms 
+        back into the hands of the poeple. But is it really fulfilling its promise?
+      </span>
+      <button>Read More</button>
+    </div>
+
+    <div class="top__articles__container">
+      <h2>New</h2>
+
+      <ul class="top__articles__list">
+        <li class="top__articles__list__item">
+          <h3>Hydrogen VS Electric Cars</h3>
+          <p>
+            Will hydrogen-fueled cars ever catch up to EVs?
+          </p>
+        </li>
+
+        <hr>
+
+        <li class="top__articles__list__item">
+          <h3>The Downsides of AI Artistry</h3>
+          <p>
+            What are the possible adverse effects of on-demand AI image generation?
+          </p>
+        </li>
+
+        <hr>
+
+        <li class="top__articles__list__item">
+          <h3>Is VC Funding Drying Up?</h3>
+          <p>
+            <p>
+              Private funding by VC firms is down 50% YDY. We take a look at what that means.
+            </p>
+          </p>
+        </li>
+      </ul>
+    </div>
+
+    <div class="bottom__articles__container">
+      <ul class="bottom__articles__list">
+        <li class="bottom__articles__list__item">
+          <img src="./assets/images/image-retro-pcs.jpg" alt="" aria-hidden="true">
+          <div class="bottom__article__text">
+            <span>01</span>
+            <h4>Reviving Retro PCs</h4>
+            <p>
+              What happens when old PCs are given modern upgrades?
+            </p>
+          </div>
+        </li>
+
+        <li class="bottom__articles__list__item">
+          <img src="./assets/images/image-top-laptops.jpg" alt="" aria-hidden="true">
+          <div class="bottom__article__text">
+            <span>02</span>
+            <h4>Top 10 Laptops of 2022</h4>
+            <p>
+              Our best picks for various needs and budgets.
+            </p>
+          </div>
+        </li>
+        
+        <li class="bottom__articles__list__item">
+          <img src="./assets/images/image-gaming-growth.jpg" alt="" aria-hidden="true">
+          <div class="bottom__article__text">
+            <span>03</span>
+            <h4>The Growth of Gaming</h4>
+            <p>
+              How the padnemic has sparked fresh opportunities.
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </main>
+
+  <script src="./index.js"></script>
+</body>
+</html>
