@@ -432,6 +432,7 @@ img {
 
 .bottom__articles__list__item img {
   flex: 1;
+  max-width: 33%;
 }
 
 .bottom__article__text {
